@@ -1,3 +1,9 @@
+/* Thêm class cha cho tất cả các selector global */
+.mapContainer :global(.leaflet-container) {
+  /* CSS của bạn */
+}
+
+/* Tương tự cho các selector global khác */
 /* components/JobMap/JobMap.module.css */
 .mapContainer {
   width: 100%;

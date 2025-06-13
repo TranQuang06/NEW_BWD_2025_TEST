@@ -529,7 +529,7 @@
 }
 
 /* Chỉnh style của Ant Design Tabs */
-:global(.ant-tabs-tab) {
+.tabsContainer :global(.ant-tabs-tab) {
   font-size: 16px !important;
   padding: 12px 0 !important;
   color: var(--primary-color) !important; /* Màu cho text tab không active */
@@ -537,7 +537,7 @@
 }
 
 /* Màu cho tab đang active */
-:global(.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn) {
+.tabsContainer :global(.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn) {
   color: var(
     --secondary-color
   ) !important; /* Màu xanh dương cho tab đang active */
@@ -545,7 +545,7 @@
 }
 
 /* Màu cho thanh indicator dưới tab đang active */
-:global(.ant-tabs-ink-bar) {
+.tabsContainer :global(.ant-tabs-ink-bar) {
   background-color: var(
     --secondary-color
   ) !important; /* Màu xanh dương cho thanh indicator */
@@ -553,17 +553,17 @@
 }
 
 /* Tùy chỉnh hover effect */
-:global(.ant-tabs-tab:hover) {
+.tabsContainer :global(.ant-tabs-tab:hover) {
   color: var(--primary-color) !important;
 }
 
 /* Loại bỏ border-bottom mặc định của Ant Design */
-:global(.ant-tabs-nav::before) {
+.tabsContainer :global(.ant-tabs-nav::before) {
   border-bottom: none !important;
 }
 
 /* Thêm một border-bottom tùy chỉnh */
-:global(.ant-tabs-nav) {
+.tabsContainer :global(.ant-tabs-nav) {
   border-bottom: 1px solid #eaeaea !important;
   margin-bottom: 30px !important;
 }

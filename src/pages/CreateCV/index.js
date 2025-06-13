@@ -314,7 +314,12 @@ function CreateCV() {
       {/* START OF SECTION THREE */}
       <div className={styles.sectionThree}>
         <div className="container">
-          <Tabs defaultActiveKey="1" items={items} onChange={onChange} />;
+          <div className={styles.tabsContainer}>
+            <Tabs defaultActiveKey="1" onChange={onChange} items={items} />
+          </div>
+          <div className={styles.selectContainer}>
+            {/* Các component Select của bạn */}
+          </div>
         </div>
       </div>
       {/* Tham khảo cách viết CV  */}
