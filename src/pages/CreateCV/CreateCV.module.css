@@ -573,10 +573,6 @@
   padding: 0 20px;
 }
 
-/* Tùy chỉnh Select component của Ant Design */
-:global(.ant-select) {
-  border-radius: 8px !important;
-}
 
 :global(.ant-select .ant-select-selector) {
   border: 2px solid #d9d9d9 !important;

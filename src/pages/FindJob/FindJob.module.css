@@ -1,11 +1,4 @@
 /* Global styles reset */
-html,
-body {
-  overflow-x: hidden !important; /* Ẩn thanh scroll ngang thừa */
-  max-width: 100vw;
-  box-sizing: border-box;
-  height: 100%;
-}
 
 /* Universal box-sizing */
 .contentWrapper *,
