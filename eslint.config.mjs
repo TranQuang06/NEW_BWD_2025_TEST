@@ -9,6 +9,11 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [...compat.extends("next/core-web-vitals")];
+// Sử dụng phương thức config() với cấu hình rõ ràng
+const eslintConfig = [
+  ...compat.config({
+    extends: ["next/core-web-vitals"],
+  }),
+];
 
 export default eslintConfig;
